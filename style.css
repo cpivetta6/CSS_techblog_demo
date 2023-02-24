@@ -1,8 +1,3 @@
-#header{
-	background-color: #f7b600;
-	padding: 15px;
-	text-align: center;
-}
 
 body {
 	font-size:  1em;
@@ -13,6 +8,39 @@ body {
 
 /*LAYOUT*/
 
+#header{
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+
+
 #logo, #menu-area {
 	padding: 10px;
 }
+
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+.whiteBlog{
+	color: white;
+}
+
+/*LAYOUT MENU*/
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: white;
+	padding: 8px 12px;
+}
+
+a:hover{
+	color: #f7b600;
+	background: white;
+}
+
