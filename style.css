@@ -44,3 +44,37 @@ a:hover{
 	background: white;
 }
 
+/*LAYOUT MAIN AREA*/
+
+#main-area{
+	width: 920px;
+	margin: 0 auto;
+}
+
+#posts, #menu-corner{
+	background: orange;
+}
+
+#posts{
+	width: 660px;
+	float: left;
+}
+
+#menu-corner{
+	width: 240px;
+	float: right;
+}
+
+.post1{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
